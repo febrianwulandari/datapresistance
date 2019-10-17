@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnbuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#E0F7FA"
+        android:text="@string/buat_file" />
+
+    <Button
+        android:id="@+id/btnubah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#B2EBF2"
+        android:text="@string/ubah_file" />
+
+    <Button
+        android:id="@+id/btnbaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#80DEEA"
+        android:text="@string/baca_file" />
+
+    <Button
+        android:id="@+id/btnhapus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#4DD0E1"
+        android:text="@string/hapus_file" />
+
+    <TextView
+        android:id="@+id/txtBaca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textMultiLine"
+        android:text="@string/hasil_baca_file"
+        android:textColor="#0097A7"
+        android:textSize="18sp" />
+</LinearLayout>
